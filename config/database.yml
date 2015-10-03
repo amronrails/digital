@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: digital_production
-  username: digital
-  password: Zh3yysQCxD
+  username: rails
+  password: <%= ENV['DIGITAL_DATABASE_PASSWORD'] %>
