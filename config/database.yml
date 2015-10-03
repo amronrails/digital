@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: digital_production
-  username: rails
+  username: digital
   password: Zh3yysQCxD
