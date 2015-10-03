@@ -82,4 +82,4 @@ production:
   <<: *default
   database: digital_production
   username: rails
-  password: <%= ENV['DIGITAL_DATABASE_PASSWORD'] %>
+  password: Zh3yysQCxD
